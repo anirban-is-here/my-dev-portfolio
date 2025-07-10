@@ -134,3 +134,72 @@ header nav ul li a{
     font-size: 20px;
     font-weight: bold;
 }
+
+/*A summary of my resume*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.resume-summary{
+    margin-top: 130px;
+}
+
+.cv-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.experience{
+    margin: 30px 0px 30px 0px;
+}
+
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+/*footer*/
+footer{
+    display: flex;
+    background-color:   #FFF8F3;
+    justify-content: center;
+    padding: 130px 230px;
+    gap: 100px;
+    margin-top: 113px;
+}
+
+.footer-header{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.lets-message-me{
+    margin-left: 230px;
+}
